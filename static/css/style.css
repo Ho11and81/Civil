@@ -34,10 +34,10 @@ div.header a
     font-weight: 400;
     text-transform: lowercase;
     font-family: 'Alata', sans-serif;
-    transition: 0.3s cubic-bezier(0.86, 0, 0.07, 1);
-    -webkit-transition: 0.3s cubic-bezier(0.86, 0, 0.07, 1);
-    -moz-transition: 0.3s cubic-bezier(0.86, 0, 0.07, 1);
-    -o-transition: 0.3s cubic-bezier(0.86, 0, 0.07, 1);
+    transition: 0.7s cubic-bezier(0.86, 0, 0.07, 1);
+    -webkit-transition: 0.7s cubic-bezier(0.86, 0, 0.07, 1);
+    -moz-transition: 0.7s cubic-bezier(0.86, 0, 0.07, 1);
+    -o-transition: 0.7s cubic-bezier(0.86, 0, 0.07, 1);
 }
 div.header a:hover
 {
@@ -53,8 +53,8 @@ div.header a span.gradient
     background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
-    transition: 0.3s cubic-bezier(0.86, 0, 0.07, 1);
-    -webkit-transition: 0.3s cubic-bezier(0.86, 0, 0.07, 1);
-    -moz-transition: 0.3s cubic-bezier(0.86, 0, 0.07, 1);
-    -o-transition: 0.3s cubic-bezier(0.86, 0, 0.07, 1);
+    transition: 0.7s cubic-bezier(0.86, 0, 0.07, 1);
+    -webkit-transition: 0.7s cubic-bezier(0.86, 0, 0.07, 1);
+    -moz-transition: 0.7s cubic-bezier(0.86, 0, 0.07, 1);
+    -o-transition: 0.7s cubic-bezier(0.86, 0, 0.07, 1);
 }
