@@ -43,7 +43,7 @@ div.header a:hover
 {
     transform: scale(1.14);
 }
-div.header a span
+div.header a span.gradient
 {
     background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
     background: -webkit-linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
