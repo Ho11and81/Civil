@@ -64,8 +64,8 @@ span.ac-ln-menucta-chevron
 {
   position: relative;
   display: block;
-  width: 42px;
-  height: 42px;
+  width: 22px;
+  height: 22px;
 }
 span.ac-ln-menucta-chevron::before, span.ac-ln-menucta-chevron::after 
 {
@@ -97,10 +97,12 @@ span.ac-ln-menucta-chevron.open::before
 {
     transform-origin: 100% 0%;
     transform: rotate(-40deg) scaleY(1.1);
+    transform: scale(1.14);
 }
 span.ac-ln-menucta-chevron.open::after 
 {
     transform-origin: 0% 0%;
     transform: rotate(40deg) scaleY(1.1);
+    transform: scale(1);
 }
 /*More ../html/index.html styles*/
