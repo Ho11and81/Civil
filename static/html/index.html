@@ -6,7 +6,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Civil Proxy</title>
         <link rel="stylesheet" href="../css/style.css">
-        <script src="../js/jquery.min.js"></script>
         <!--Google Fonts-->
         <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" type="text/css" rel="stylesheet">
     </head>
@@ -14,6 +13,17 @@
     <body>
         <div class="header">
             <a href="./index.html">Civil <span class="gradient">Proxy</span></a>
+
+            <span class="ac-ln-menucta-chevron"></span>
         </div>
+
+        <script src="../js/jquery.min.js"></script>
+
+        <script>
+            $('.ac-ln-menucta-chevron').click( function(e) {
+                e.preventDefault()
+                $('.ac-ln-menucta-chevron').toggleClass('open')
+            })
+        </script>
     </body>
 </html>
