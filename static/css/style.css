@@ -103,6 +103,5 @@ span.ac-ln-menucta-chevron.open::after
 {
     transform-origin: 0% 0%;
     transform: rotate(40deg) scaleY(1.1);
-    transform: scale(1);
 }
 /*More ../html/index.html styles*/
