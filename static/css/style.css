@@ -119,7 +119,7 @@ ul.menu
     backdrop-filter: blur(15px);
     border: 3px solid #c6ffdd;
     border-radius: 50px;
-    width: 150px;
+    width: 200px;
     height: 275px;
 }
 ul.menu li
@@ -142,6 +142,6 @@ ul.menu li a
 ul.menu li a:hover
 {
     padding: 14px;
-    background-color: #c6ffdd;
-    border-radius: 50px;
+    background-color: #4ae588;
+    border-radius: 100px;
 }
