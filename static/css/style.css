@@ -21,7 +21,7 @@ div.header
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 200px;
+    gap: 100px;
     background-color: #43413ec8;
     backdrop-filter: blur(15px);
     width: 100%;
