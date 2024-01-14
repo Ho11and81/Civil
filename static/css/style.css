@@ -97,7 +97,6 @@ span.ac-ln-menucta-chevron.open::before
 {
     transform-origin: 100% 0%;
     transform: rotate(-40deg) scaleY(1.1);
-    transform: scale(1.14);
 }
 span.ac-ln-menucta-chevron.open::after 
 {
