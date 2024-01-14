@@ -66,7 +66,6 @@ span.ac-ln-menucta-chevron
   display: block;
   width: 11px;
   height: 22px;
-  margin: 0 auto;
 }
 span.ac-ln-menucta-chevron::before, span.ac-ln-menucta-chevron::after 
 {
