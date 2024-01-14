@@ -105,7 +105,7 @@ span.ac-ln-menucta-chevron.open::after
     transform: rotate(40deg) scaleY(1.1);
 }
 /*More ../html/index.html styles*/
-div.header ul.menu
+ul.menu
 {
     position: absolute;
     display: flex;
@@ -122,11 +122,11 @@ div.header ul.menu
     width: 150px;
     height: 275px;
 }
-div.header ul.menu li
+ul.menu li
 {
     list-style: none;
 }
-div.header ul.menu li a
+ul.menu li a
 {
     text-decoration: none;
     color: #dae3e5;
@@ -139,7 +139,7 @@ div.header ul.menu li a
     -moz-transition: 0.3s cubic-bezier(0.86, 0, 0.07, 1);
     -o-transition: 0.3s cubic-bezier(0.86, 0, 0.07, 1);
 }
-div.header ul.menu li a:hover
+ul.menu li a:hover
 {
     padding: 14px;
     background-color: #c6ffdd;
