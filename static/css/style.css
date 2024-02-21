@@ -122,24 +122,7 @@ ul.menu
     border-radius: 50px;
     width: 300px;
     height: 275px;
-}
-ul.menu.scrolled
-{
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 32px;
-    top: 10vh;
-    left: 75%;
-    background-color: transparent;
-    backdrop-filter: none;
-    border: none;
-    outline: none;
-    border-radius: 0px;
-    width: 300px;
-    height: 100px;
+    transition: height 0.3s cubic-bezier(0.86, 0, 0.07, 1);
 }
 ul.menu li
 {
