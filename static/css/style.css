@@ -122,7 +122,7 @@ ul.menu
     border-radius: 50px;
     width: 300px;
     height: 275px;
-    transition: height 1s cubic-bezier(0.86, 0, 0.07, 1);
+    transition: height 1s cubic-bezier(0.86, 0, 0.07, 1), border 0.7s cubic-bezier(0.86, 0, 0.07, 1);
 }
 ul.menu li
 {
