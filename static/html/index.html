@@ -34,19 +34,12 @@
 
         <script>
             $(document).ready(function() {
-                let previousScrollPosition = 0
-
-                $(window).scroll(function() {
-                    const currentScrollPosition = $(window).scrollTop()
-                    const scrollDelta = currentScrollPosition - previousScrollPosition
-
-                    if (scrollDelta >= 400) {
-                        $('ul.menu').addClass('scrolled')
-                    } else if (scrollDelta < 0 && $('ul.menu').hasClass('scrolled')) {
-                        $('ul.menu').removeClass('scrolled')
-                    }
-
-                    previousScrollPosition = currentScrollPosition
+                let isHidden = true
+                
+                $('.ac-ln-menucta-chevron').on("click", function() {
+                    isHidden = !isHidden
+                    
+                    $('.menu').css({ height: isHidden ? '0px' : '275px' })
                 })
             })
         </script>
